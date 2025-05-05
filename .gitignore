@@ -5,13 +5,15 @@
 *.bin
 *.res
 *.dll
+*.lst
 
-# Case-insensitive versions (optional on case-sensitive file systems)
+# Case-insensitive versions (for case-sensitive systems)
 *.EXE
 *.OBJ
 *.COM
 *.BIN
 *.DLL
+*.LST
 
 # Backup or temporary files
 *~
@@ -25,13 +27,13 @@
 # Logs and misc
 *.log
 
-# Specific files
+# Specific files (if auto-generated or not needed in repo)
 tcoff.asm
 TEST.ASM
 TEST.OBJ
 rtn.asm
 
-# Text files
+# Text files (uncomment to exclude plain text files)
 *.txt
 *.TXT
 
