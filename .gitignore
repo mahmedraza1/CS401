@@ -1,0 +1,39 @@
+# Compiled binaries and intermediate files
+*.exe
+*.obj
+*.com
+*.bin
+*.res
+*.dll
+
+# Case-insensitive versions (optional on case-sensitive file systems)
+*.EXE
+*.OBJ
+*.COM
+*.BIN
+*.DLL
+
+# Backup or temporary files
+*~
+*.exe~
+*.obj~
+*.com~
+
+# Resource and config files
+*.RC
+
+# Logs and misc
+*.log
+
+# Specific files
+tcoff.asm
+TEST.ASM
+TEST.OBJ
+rtn.asm
+
+# Text files
+*.txt
+*.TXT
+
+# Ignore whole folder
+/misc
